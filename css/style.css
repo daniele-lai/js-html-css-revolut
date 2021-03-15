@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list_inline {
+  list-style: none;
+}
+
+.relative {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.list_inline li {
+  margin: 10px;
+}
+
+.dropdown_menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+.active {
+  display: block;
+}
