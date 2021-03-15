@@ -6,10 +6,15 @@
 
 .list_inline {
   list-style: none;
+  align-items: center;
 }
 
 .relative {
   position: relative;
+}
+
+nav img {
+  height: 40px;
 }
 
 a {
@@ -30,6 +35,12 @@ a:hover {
   justify-content: space-between;
   width: 80%;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+  opacity: 1;
 }
 
 .list_inline li {
@@ -39,7 +50,6 @@ a:hover {
 .dropdown_menu {
   display: none;
   position: absolute;
-  top: 100%;
 }
 
 .active {
